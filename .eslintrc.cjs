@@ -13,13 +13,7 @@ module.exports = {
   ],
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   parser: '@typescript-eslint/parser',
-  plugins: [
-    '@typescript-eslint',
-    'react-refresh',
-    'simple-import-sort',
-    'import',
-    'jsx-a11y',
-  ],
+  plugins: ['react-refresh', 'simple-import-sort', 'import'],
   rules: {
     'react-refresh/only-export-components': [
       'warn',
